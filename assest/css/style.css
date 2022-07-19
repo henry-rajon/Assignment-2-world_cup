@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&display=swap');
+
+/* Reset Code */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+.btn {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+/* Banner CSS Code */
+.banner-area{
+    background-color: #161616;
+    color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-content h1{
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.banner-content p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.banner-content a{}
+.banner-imgs{
+    width: 45%;
+}
+.banner-imgs img {
+    margin-bottom: -57px;
+}
