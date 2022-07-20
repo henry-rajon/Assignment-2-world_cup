@@ -1,0 +1,70 @@
+/* Mobile Phone Responsive CSS Code */
+
+@media only screen and (max-width: 768px){
+    .banner-area {
+            flex-direction: column;
+        }
+    
+}
+
+
+
+
+/* Tablate Responsive CSS Code */
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+    body{
+        width: 780px;
+    }
+    .banner-area {
+        padding: 33px;
+    }
+    .banner-content h1 {
+        font-size: 44px;
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+    .banner-imgs img {
+        margin-bottom: -40px;
+    }
+    .blogs-area {
+        flex-direction: column;
+        margin-top: 45px;
+    }
+    .blogs {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 40px;
+    }
+.view-area {
+    margin: 0px auto;
+    display: block;
+    margin-top: 40px;
+}
+.footer-area {
+    padding: 50px 100px;
+    margin-top: 50px;
+}
+.sidebar-menu {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 44px;
+    background-color: #fff;
+}
+.sidebar-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sidebar-menu ul li a {
+    border: 1px solid #ddd;
+    width: 165px;
+}
+
+/* Match Responsive Code */
+.matchs {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+}
+
+}
