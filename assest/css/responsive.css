@@ -61,7 +61,9 @@
         margin-right: 0px;
         margin-bottom: 15px;
     }
-
+    .social-icon{
+        display: block;
+    }
 /* Match Responsive Code */
     .match-area {
         margin-top: 50px;

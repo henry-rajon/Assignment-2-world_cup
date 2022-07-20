@@ -168,6 +168,16 @@ img{
     font-size: 14px;
 }
 
+/* Socila Icon */
+.social-icon{
+    margin-top: 15px;
+    display: none;
+}
+.social-icon i {
+    font-size: 18px;
+    margin: 5px;
+}
+
 /* Match Area CSS Code */
 
 .match-area {
