@@ -125,3 +125,21 @@ img{
     color: #555;
 }
 .blog-bottom p i{}
+
+/* View  Css Code */
+.view-area{
+    margin: 40px auto;
+    display: none;
+}
+.view-area a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #DD0000;
+    text-transform: capitalize;
+    padding: 8px 20px;
+    border-radius: 7px;
+    transition: background-color .3s;
+}
+.view-area a:hover{
+    background-color: #e12929;
+}
