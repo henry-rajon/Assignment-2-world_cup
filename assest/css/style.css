@@ -143,3 +143,26 @@ img{
 .view-area a:hover{
     background-color: #e12929;
 }
+
+/* Footer CSS Code */
+.footer-area{
+    background-color: #161616;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+}
+.footer-area h2 {
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 1px solid #5e5e5e;
+    padding-bottom: 30px;
+}
+.footer-items{
+    margin-top: 35px;
+}
+.footer-items a {
+    color: #ddd;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 14px;
+}
