@@ -1,20 +1,84 @@
 /* Mobile Phone Responsive CSS Code */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
+    /* body {
+            width: 400px;
+        } */
     .banner-area {
             flex-direction: column;
         }
-    
+    .banner-content {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .banner-content p {
+        font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .banner-imgs {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .banner-imgs img {
+        margin-bottom: -57px;
+    }
+    .sidebar-menu {
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+        height: 44px;
+        background-color: #fff;
+    }   
+    .sidebar-menu ul li a {
+        border: 1px solid #ddd;
+        width: 165px;
+    }
+    .blogs {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 160px;
+    }
+    .view-area {
+        display: block;
+    }
+    .footer-area {
+        padding: 25px;
+        margin-top: 0px;
+    }
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-items a {
+        font-size: 18px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+/* Match Responsive Code */
+    .match-area {
+        margin-top: 50px;
+    }
+    .matchs {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 160px;
+    }
+
 }
-
-
-
 
 /* Tablate Responsive CSS Code */
 @media only screen and (min-width: 600px) and (max-width: 959px) {
-    body{
+    /* body{
         width: 780px;
-    }
+    } */
     .banner-area {
         padding: 33px;
     }
@@ -30,41 +94,40 @@
         flex-direction: column;
         margin-top: 45px;
     }
+    .sidebar-menu {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        height: 44px;
+        background-color: #fff;
+    }
+    .sidebar-menu ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sidebar-menu ul li a {
+        border: 1px solid #ddd;
+        width: 165px;
+    }
     .blogs {
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
         margin-top: 40px;
     }
-.view-area {
-    margin: 0px auto;
-    display: block;
-    margin-top: 40px;
-}
-.footer-area {
-    padding: 50px 100px;
-    margin-top: 50px;
-}
-.sidebar-menu {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    height: 44px;
-    background-color: #fff;
-}
-.sidebar-menu ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-.sidebar-menu ul li a {
-    border: 1px solid #ddd;
-    width: 165px;
-}
-
-/* Match Responsive Code */
-.matchs {
-    width: 100%;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 30px;
-}
+    .view-area {
+        margin: 0px auto;
+        display: block;
+        margin-top: 40px;
+    }
+    .footer-area {
+        padding: 50px 100px;
+        margin-top: 50px;
+    }
+    /* Match Responsive Code */
+    .matchs {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+    }
 
 }

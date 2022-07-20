@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    width: 1000px;
-    margin: 0 auto;
+    /* width: 1000px; */
+    margin: 0 30px;
 }
 img{
     width: 100%;
