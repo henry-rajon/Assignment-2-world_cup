@@ -166,3 +166,49 @@ img{
     margin-right: 25px;
     font-size: 14px;
 }
+
+/* Match Area CSS Code */
+
+.match-area {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.matchs {
+    width: 74%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.single-match {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 7px;
+    padding-top: 55px;
+}
+.flag {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flag img{
+    width: 80%;
+}
+.flag p {
+    margin: 0 15px;
+}
+.single-match h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #333;
+}
+.single-match p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
