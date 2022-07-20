@@ -21,6 +21,10 @@ img{
     background-color: #DD0000;
     padding: 10px 20px;
     border-radius: 7px;
+    transition: background-color .3s;
+}
+.btn:hover{
+    background-color: #e12929;
 }
 
 /* Banner CSS Code */
@@ -52,3 +56,72 @@ img{
 .banner-imgs img {
     margin-bottom: -57px;
 }
+
+/* Blog CSS Code */
+.blogs-area{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sidebar-menu {
+    width: 18%;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 30px;
+    height: 180px;
+}
+#blog{
+    background-color: #DD0000;
+    color: #fff;
+}
+.sidebar-menu ul{}
+.sidebar-menu ul li{
+    list-style: none;
+}
+.sidebar-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.blogs{
+    width: 74%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.single-blog {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.single-blog img{}
+.blog-content{
+    padding: 15px;
+}
+.blog-content h2 {
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+.blog-content p {
+    font-weight: 500;
+    margin: 10px 0;
+}
+.blog-bottom{
+    display: flex;
+}
+.blog-bottom p {
+    margin-right: 30px;
+    color: #555;
+}
+.blog-bottom p i{}
